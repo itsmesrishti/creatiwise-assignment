@@ -3,7 +3,7 @@ Made responsive desktop version of an e-commerce site.
 
 <a href="https://shopify-website-srishti.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment">\(Link to Solution\)</a>
 
-![shopify website homepage.png]
+![screenshot](homepage.png)
 
 &nbsp;
 ## Challenge:
