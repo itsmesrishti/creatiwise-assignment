@@ -3,6 +3,8 @@ Made responsive desktop version of an e-commerce site.
 
 <a href="https://shopify-website-srishti.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment">\(Link to Solution\)</a>
 
+![screenshot](shopify website homepage.png)
+
 &nbsp;
 ## Challenge:
 Create clone of the desktop version of the Shopify website. Should be fully responsive. 
