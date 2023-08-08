@@ -6,6 +6,7 @@ Home Page: <a href="https://shopify-website-srishti.onrender.com/">\(View Live V
 Product Page (_in progress_): <a href="https://creatiwise-product-page.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/product-page/index.html">\(Link to Solution\)</a>
 
 ![screenshot](homepage.png)
+![screenshot](product-page.png)
 
 &nbsp;
 ## Challenge:
