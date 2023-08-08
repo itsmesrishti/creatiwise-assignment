@@ -1,11 +1,15 @@
 # Shophify Website (Clone)
 Made responsive desktop version of an e-commerce site.
 
-Home Page: <a href="https://shopify-website-srishti.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/index.html">\(Link to Solution\)</a>
+Homepage: <a href="https://shopify-website-srishti.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/index.html">\(Link to Solution\)</a>
 
 Product Page: <a href="https://creatiwise-product-page.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/product-page/index.html">\(Link to Solution\)</a>
 
-![screenshot](homepage.png) ![screenshot](product-page.png)
+Homepage:
+![screenshot](homepage.png) 
+&nbsp;
+Product Page:
+![screenshot](product-page.png)
 
 &nbsp;
 ## Challenge:
