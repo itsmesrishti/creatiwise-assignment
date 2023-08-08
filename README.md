@@ -5,6 +5,7 @@ Homepage: <a href="https://shopify-website-srishti.onrender.com/">\(View Live Ve
 
 Product Page: <a href="https://creatiwise-product-page.onrender.com/">\(View Live Version\)</a>   <a href="https://github.com/itsmesrishti/creatiwise-assignment/blob/main/product-page/index.html">\(Link to Solution\)</a>
 
+&nbsp;
 Homepage:
 ![screenshot](homepage.png) 
 &nbsp;
