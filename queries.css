@@ -1,32 +1,59 @@
-@media only screen and (min-width: 1440px) {
-    html {
-        font-size: 20px;
+/* for large screen devices (desktops, laptops) */
+@media only screen and (min-width: 1180px) {
+    .bg-circle {
+        margin-left: 11rem;
     }
-    .logo {
-        margin-right: 1rem;
-    }
-    .bottom-header .search-bar {
-        width: 27rem;
-    }
-    .hero-section .hero-text {
-        padding-top: 3rem;
-    }
-    .hero-section .feature .feature-img {
-        width: 8rem;
-        height: 8rem;
-    }
-    .hero-section .feature img {
-        width: 5rem;
-    }
-    .hero-section .service-features {
+}
+@media only screen and (min-width: 1230px) {
+    .category img {
+        width: 18rem;
         margin-top: -4rem;
     }
-    .category button {
-        font-size: .8rem;
+}
+@media only screen and (min-width: 1273px) {
+    .bg-circle {
+        width: 23rem;
+        height: 23rem;
+        margin-top: -20rem;
+    }
+    .goals-section .big-img {
+        width: 32rem;
+        height: 32rem;
+    }
+    .goals-section .light-text {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+    .bottom-header .logo {
+        margin-right: 5rem;
+    }
+    .bottom-header .search-bar {
+        width: 46.7%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-height: 705px) {
+    .hero-content,
+    .hero-section .hero-text {
+        height: 68vh;
     }
     .category img {
-        left: 15%;
-        top: -60%;
+        margin-top: -3rem;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-height: 650px) {
+    .hero-section .service-features {
+        margin-top: -3.5rem;
+    }
+    .category img {
+        width: 13rem;
+    }
+}
+@media only screen and (min-width: 1440px) and (min-height: 842px) {
+    html {
+        font-size: 18px;
+    }
+    .bottom-header .logo {
+        margin-right: 0;
     }
 }
 @media only screen and (min-width: 2560px) {
@@ -39,79 +66,58 @@
     .bottom-header .search-bar {
         border-width: 2px;
     }
-    .bottom-header .cart-details i::after {
-        width: .8rem;
-        height: .8rem;
+    .hero-section .feature .feature-img {
+        border-width: .3rem;
+    }
+    hr {
+        height: 2px;
+    }
+    .btn-small {
         font-size: .8rem;
     }
-    h1 {
-        font-size: 3.2rem;
-    }
-    .hero-section .hero-text {
-        padding-top: 5rem;
-    }
-    .cart-details .prod-info p {
-        font-size: 1rem;
-    }
-    .cart-items .item .prod-price {
-        font-size: 1.2rem;
-    }
-    .cart-items .item img {
-        width: 4rem;
-        height: 4rem;
-        object-fit: contain;
-    }
-    .cart-details .cart-items-card {
-        padding-top: 1.2rem;
-    }
-    .btn-continue {
-        height: 2.6rem;
-        font-size: 1rem;
-    }
-    .product-card button {
-        font-size: .95rem;
-    }
-    .bg-circle {
-        top: -25rem;
-    }
-    .category:nth-of-type(1) .bg-circle,
-    .category:nth-of-type(4) .bg-circle {
-        top: -23rem;
-        /* background-color: pink; */
-    }
-    .category img {
-        width: 17rem;
-        left: 13%;
-    }
-    .category button {
-        height: 2.8rem;
-        width: 7rem;
-        font-size: .9rem;
-    }
-    .banner-section {
-        max-height: 52vh;
-    }
-    .goals-section .big-img {
-        width: 30rem;
+}
+@media only screen and (min-width: 2560px) and (min-height: 1264px) {
+    .hero-section .hero-text,
+    .hero-content {
         height: 30rem;
     }
-    .goals-section .small-img {
-        width: 15rem;
-        height: 15rem;
-        top: -10rem;
+    .category img {
+        width: 13rem;
+        margin-top: -4rem;
+    }
+    .category button {
+        margin-top: 1.5rem;
+    }
+    .categories-section .category {
+        padding-top: 1.5rem;
+    }
+    .banner-section {
+        height: 70vh;
+        max-height: none;
     }
     .goals-section .light-text {
-        font-size: 1.4rem;
-        line-height: 2.3rem;
+        font-size: 1.1rem;
+        line-height: 2.1rem;
     }
-    .btn-medium {
-        font-size: 1.05rem;
+    .goals-section .small-img {
+        top: -11rem;
     }
-    .newsletter-section button,
-    .newsletter-section input {
-        font-size: 1.2rem;
+    .goals-section .big-img {
+        width: 28rem;
+        height: 28rem;
+    }
+    .btn-continue {
+        margin-top: 1.3rem;
+    }
+    .cart-details .cart-items {
+        height: 80%;
+    }
+    .cart-details .cart-items-card {
+        height: 45vh;
     }
 }
+
+/* for non-desktop devices (to not display any content) */
 @media only screen and (max-width: 1023px) {
     header, nav, main, footer {
         display: none;
