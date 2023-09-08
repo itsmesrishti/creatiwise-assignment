@@ -165,3 +165,82 @@
         font-size: 10px;
     }
 }
+  
+/* MEDIA QUERIES FOR PRODUCT PAGE */
+@media only screen and (min-width: 1200px) {
+    .category-page .filters {
+        width: 15rem;
+    }
+    .category-page .filters .sidebar {
+        padding: 1.5rem 1.5rem;
+    }
+    .category-page .filters .type-1 .options div {
+        gap: .8rem;
+    }
+    .category-page .type-2 .dropdown {
+        padding: 0 5px;
+        font-size: .8rem;
+    }
+    .category-page .type-2 .dropdown select {
+        width: 90%;
+    }
+    .category-page .products-display-section .products-grid {
+        gap: 2rem;
+    }
+    .category-page .product-card {
+        min-width: 12rem;
+    }
+    .pagination {
+        width: 48rem;
+        margin-left: 28.6vw;
+        margin-top: 2rem;
+    }
+    .pagination nav ul {
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .category-page .products-display-section .products-grid {
+        padding: 1.85rem 7.5rem 1.8rem 2.5rem;
+        gap: 3.5rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+
+}
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    input[type=range]::-webkit-slider-thumb {
+        margin-top: -4px;
+    }
+    .category-page .products-display-section .products-grid {
+        padding-right: 1rem;
+        gap: 2rem;
+    }
+    .category-page .circle:first-of-type {
+        top: 1.65rem;
+        left: -3px;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .category-page .products-display-section .header select {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="2.5em" viewBox="0 0 448 512"><path fill="%23d1d1d1" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>');
+    }
+    .category-page .type-2 .dropdown select {
+        width: 70%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path fill="black" d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    input[type=range]::-webkit-slider-thumb {
+        margin-top: -8px;
+    }
+    .category-page .circle:first-of-type {
+        left: -7px;
+    }
+    .category-page .circle {
+        border-width: 4px;
+    }
+}
