@@ -711,6 +711,8 @@ footer {
 }
 footer .for-centering {
     width: 83.4vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 footer i {
     font-size: 1.2rem;
