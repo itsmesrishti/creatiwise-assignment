@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="queries.css">
 </head>
 <body>
+    <p class="non-desktop">This project only has a desktop version.</p>
+    <p class="only-tablets">(To get a peek into the desktop version switch to landscape mode.)</p>
     <header>
         <div class="top-header">
             <div class="left-group">
@@ -40,11 +42,13 @@
                 <input type="search" placeholder="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <div class="cart-details">
-                <i class="fa-sharp fa-solid fa-bag-shopping"></i>
-                <p>$254.46</p>
+            <div class="cart-n-login">
+                <div class="cart-details">
+                    <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                    <p>$254.46</p>
+                </div>
+                <p>Login/Register</p>
             </div>
-            <p>Login/Register</p>
         </div>
     </header>
     <nav>
@@ -66,8 +70,9 @@
             <section class="header">
                 <p class="bold">Filters</p>
                 <div class="dropdown">
+                    <p>Sort by:</p>
                     <select name="sort-by" id="sort-by">
-                        <option value="recommended">Sort by:<span> Recommended</span></option>
+                        <option value="recommended">Recommended</option>
                     </select>
                 </div>
             </section>
@@ -198,157 +203,149 @@
                     </nav>
                 </section>
                 <section class="products-grid">
-                    <div class="row">
-                        <div class="product-card">
-                            <img class="x-large" src="/images/product-1.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button>Add to cart</button>
+                    <div class="product-card">
+                        <img class="x-large" src="/images/product-1.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-2.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img class="small-img" src="/images/product-3.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img src="/images/product-4.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button>Add to cart</button>
                     </div>
-                    <div class="row">
-                        <div class="product-card">
-                            <img src="/images/product-1.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                    <div class="product-card">
+                        <img src="/images/product-2.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-6.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img src="/images/product-4.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img src="/images/product-2.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
                     </div>
-                    <div class="row">
-                        <div class="product-card">
-                            <img src="/images/product-1.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                    <div class="product-card">
+                        <img class="small-img" src="/images/product-3.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-2.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img src="/images/product-3.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
-                        <div class="product-card">
-                            <img src="/images/product-4.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
-                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
                     </div>
-                    <div class="row">
-                        <div class="product-card">
-                            <img src="/images/product-1.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                    <div class="product-card">
+                        <img src="/images/product-4.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-2.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="medium-img" src="/images/product-5.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-3.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-6.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
-                        <div class="product-card">
-                            <img src="/images/product-4.png" alt="product">
-                            <div class="prod-info">
-                                <p>Product Name</p>
-                                <p>500 gm</p>
-                            </div>
-                            <p class="prod-price">$45.95 <span>$95.55</span></p>
-                            <button class="hide">Add to cart</button>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="x-large" src="/images/product-1.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
                         </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-2.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img  class="small-img" src="/images/product-3.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-4.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="medium-img" src="/images/product-5.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-6.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="x-large" src="/images/product-1.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-2.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img class="small-img" src="/images/product-3.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="/images/product-4.png" alt="product">
+                        <div class="prod-info">
+                            <p>Product Name</p>
+                            <p>500 gm</p>
+                        </div>
+                        <p class="prod-price">$45.95 <span>$95.55</span></p>
+                        <button class="hide">Add to cart</button>
                     </div>
                 </section>
             </section>
@@ -384,8 +381,8 @@
     </main>
 
     <footer>
-        <div class="footer-top">
-            <div class="col-1">
+        <div class="for-centering">
+            <div class="col-1 footer-top">
                 <p class="logo">Logo</p>
                 <div class="socials">
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -394,7 +391,7 @@
                     <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-2 footer-top">
                 <h4>Browse by categories</h4>
                 <ul>
                     <li><a href="#">Beverages</a></li>
@@ -403,7 +400,7 @@
                     <li><a href="#">Snacks & Desserts</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-3 footer-top">
                 <h4>Browse by countries</h4>
                 <ul>
                     <li><a href="#">Vietnam</a></li>
@@ -412,7 +409,7 @@
                     <li><a href="#">America</a></li>
                 </ul>
             </div>
-            <div class="col-4">
+            <div class="col-4 footer-top">
                 <h4>Information</h4>
                 <ul>
                     <li><a href="#">About Us</a></li>
@@ -422,29 +419,27 @@
                     <li><a href="#">Terms & Conditions</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <address>
-                <h4>Contact Us</h4>
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>If you have any questions, please contact us at support@xyz.com</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>39 Lonsade Street, Melbourne, VLC 300</p>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        <p><a href="tel:+61-401-224-357">+61-401-224-357</a></p>
-                    </li>
-                </ul>
-            </address>
-            <p class="copyright">Copyright &copy; 2021. All Rights Reserved.</p>
+            <div class="footer-bottom">
+                <address>
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>If you have any questions, please contact us at support@xyz.com</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>39 Lonsade Street, Melbourne, VLC 300</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <p><a href="tel:+61-401-224-357">+61-401-224-357</a></p>
+                        </li>
+                    </ul>
+                </address>
+                <p class="copyright">Copyright &copy; 2021. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
-
-    
 </body>
 </html>
